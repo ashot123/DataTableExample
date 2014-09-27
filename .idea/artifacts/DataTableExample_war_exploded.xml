@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DataTableExample:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/DataTableExample_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DataTableExample" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.wicket:wicket-core:1.5.11" />
+          <element id="library" level="project" name="Maven: org.apache.wicket:wicket-util:1.5.11" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
+          <element id="library" level="project" name="Maven: org.apache.wicket:wicket-request:1.5.11" />
+          <element id="library" level="project" name="Maven: org.apache.wicket:wicket-extensions:1.5.11" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="DataTableExample/web/Web" />
+    </root>
+  </artifact>
+</component>

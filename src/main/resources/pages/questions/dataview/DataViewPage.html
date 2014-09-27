@@ -1,0 +1,38 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+    <title>DataView Page</title>
+</head>
+<body>
+
+<form wicket:id="form">
+    <table>
+        <thead>
+        <tr>
+            <td colspan="3">
+                <span wicket:id="label"></span>
+                <span wicket:id="navigator"></span>
+            </td>
+        </tr>
+        <tr>
+            <th>First name</th>
+            <th><a wicket:id="sortName">Name</a></th>
+            <th><a wicket:id="sortAlter">Age</a></th>
+        </tr>
+        <tr>
+            <th><input wicket:id="firstName"></th>
+            <th><input wicket:id="lastName"></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr wicket:id="dataView">
+            <td><span wicket:id="firstName"></span></td>
+            <td><span wicket:id="lastName"></span></td>
+            <td><span wicket:id="age"></span></td>
+        </tr>
+        </tbody>
+    </table>
+
+</form>
+</body>
+</html>
